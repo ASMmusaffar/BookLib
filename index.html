@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookLib | Project 02 | by Mohammed Musaffar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book Lib.</h1>
+        <div class="form-container">
+            <input type="text" id="book-name" placeholder="Book Name">
+            <input type="text" id="book-author" placeholder="Author">
+            <input type="text" id="book-genre" placeholder="Genre">
+            <textarea id="book-description" placeholder="Description" rows="5"></textarea>
+            <button onclick="addBook()">Add Book</button>
+        </div>
+        <div class="library-container">
+            <h2>Library</h2>
+            <div id="library" class="book-list">
+                <!-- Books will be added here when click 'Add Book' button-->
+            </div>
+        </div>
+    </div>
+    <div id="attrib">
+        BookLib | Project 02 | by Mohammed Musaffar
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
